@@ -14,14 +14,6 @@ main {
   box-shadow: 0 0 3px #cccccc;
 }
 
-h1 {
-  margin: 0;
-  padding: 10px 0;
-  font-size: 28px;
-  font-weight: normal;
-  text-align: center;
-}
-
 .slider {
   position: relative;
 }
@@ -30,7 +22,7 @@ h1 {
   display: none;
 }
 
-.slider-inner {
+.slider-track {
   overflow: hidden;
 }
 
@@ -69,14 +61,14 @@ h1 {
   background-color: #666666;
 }
 
-#btn-1:checked ~ .slider-inner .slider-slides {
+#btn-1:checked ~ .slider-track .slider-slides {
   transform: translate(0);
 }
 
-#btn-2:checked ~ .slider-inner .slider-slides {
+#btn-2:checked ~ .slider-track .slider-slides {
   transform: translate(-450px);
 }
 
-#btn-3:checked ~ .slider-inner .slider-slides {
+#btn-3:checked ~ .slider-track .slider-slides {
   transform: translate(-900px);
 }
