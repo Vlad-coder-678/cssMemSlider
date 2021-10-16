@@ -18,8 +18,9 @@ body {
 }
 
 main {
-  width: 680px;
-  margin: 40px auto;
+  width: 660px;
+  margin: 30px auto;
+  padding: 30px;
   background-color: white;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -36,7 +37,7 @@ main {
   width: 600px;
   height: 450px;
   overflow: hidden;
-  margin: 40px;
+  margin: 0 auto 30px;
 }
 
 .slider-slides {
@@ -45,11 +46,12 @@ main {
   overflow: hidden;
   list-style: none;
   padding: 0;
+  margin: 0 auto;
 }
 
 .slide {
   float: left;
-  width: 600px;
+  width: calc(100% / 4);
   height: 450px;
 }
 
@@ -113,12 +115,10 @@ main {
 /* phrases */
 
 .slider-bottom {
-  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 40px;
 }
 
 .slider-phrases-track {
